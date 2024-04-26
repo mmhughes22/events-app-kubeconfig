@@ -19,7 +19,7 @@ spec:
         image: mmhughes22/external:v1.0
         env: 
         - name: SERVER
-          value: "http://events-api-service:8082"
+          value: "http://events-api-service.production:8082"
         - name: SERVICE_PORT
           value: "8080"
         ports:
